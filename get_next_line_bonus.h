@@ -6,7 +6,7 @@
 /*   By: yusuzuki <yusuzuki@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 09:50:40 by yusuzuki          #+#    #+#             */
-/*   Updated: 2025/10/29 20:45:17 by yusuzuki         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:02:06 by yusuzuki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@
 # ifndef FD_MAX
 #  define FD_MAX 1024
 # endif
-
 
 char	*get_next_line(int fd);
 char	*ft_strjoin_free(char *dst, char *src);

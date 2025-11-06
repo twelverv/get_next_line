@@ -6,13 +6,13 @@
 /*   By: yusuzuki <yusuzuki@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 13:21:09 by yusuzuki          #+#    #+#             */
-/*   Updated: 2025/10/29 12:07:13 by yusuzuki         ###   ########.fr       */
+/*   Updated: 2025/11/04 12:01:31 by yusuzuki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-size_t	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
 	size_t	i;
 
